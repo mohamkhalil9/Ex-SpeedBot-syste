@@ -143,6 +143,18 @@ if (message.content.startsWith(prefix + 'help')) {
     }
 });
 
+client.on('ready', () => {
+   console.log(`----------------`);
+      console.log(`Desert Bot- Script By : EX Clan`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
+    console.log(`----------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`Type !help | #♛ ExPlosive ♛`,"http://twitch.tv/Death Shop")
+client.user.setStatus("online")
+});
+
+
 client.on('message' , message => {
   var prefix = "-";
   if(message.author.bot) return;
