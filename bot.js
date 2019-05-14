@@ -615,7 +615,7 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
 const adminprefix = "-v";
-const devs = ['349616310734553088','335027415619338240'];
+const devs = ['415142691282616330','380810113813970944'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -2057,7 +2057,7 @@ client.on('ready', () => {// افنت التشغيل
                       role.edit({color : "RANDOM"});
                   };
       });
-  }, 600);// وقت الريمبو لا تغيرة لانه الوقت المسموح للتغيير
+  }, 60000);// وقت الريمبو لا تغيرة لانه الوقت المسموح للتغيير
 })
 
 client.on('ready', () => {
