@@ -403,7 +403,7 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=576934887563722752&permissions=2146958839&scope=bot')
   .setDescription(`**
   New Server Add Speed Bot ✅
 Server name: __${guild.name}__
@@ -417,7 +417,7 @@ client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=576934887563722752&permissions=2146958839&scope=bot')
   .setDescription(`**
    Server kicked Speed Bot :cry:
 Server name: __${guild.name}__
@@ -770,7 +770,7 @@ client.on('message', message => {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ - ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | Elmusaui_GK and Speed')
+			      .setFooter('By | Mohamad_Doleh and Speed')
     })
 }
 });
